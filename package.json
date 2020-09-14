@@ -1,25 +1,29 @@
 {
-  "name": "streaming-media-assignment",
+  "name": "http-api-assignment",
   "version": "1.0.0",
-  "description": "npm for Streaming-media-assignment",
-  "main": "./src/server.js",
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  },
+  "description": "http api assignment",
+  "main": "server.js",
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
-    "test": "echo \"Tests complete\""
+    "test": "echo \"Test complete\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mccardellch/streaming-media-assignment.git"
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/http-api-assignment.git"
   },
   "author": "Harry McCardell",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/mccardellch/streaming-media-assignment/issues"
+    "url": "https://github.com/IGM-RichMedia-at-RIT/http-api-assignment/issues"
   },
-  "homepage": "https://github.com/mccardellch/streaming-media-assignment#readme",
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/http-api-assignment#readme",
   "devDependencies": {
-    "eslint": "^7.8.1",
+    "eslint": "^7.7.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0"
   }
