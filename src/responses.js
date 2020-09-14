@@ -57,7 +57,7 @@ const forbidden = (request, response) => {
     const responseJSON = {
         message: 'You do not have access to this content',
         id: 'forbidden'
-    };,
+    };
     
     return respond(request, response, 403, responseJSON);
 };
